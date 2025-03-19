@@ -1,0 +1,71 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #333;
+}
+
+.poll-form, .poll-list {
+  margin-top: 20px;
+}
+
+.input {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button, .vote-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.button:hover, .vote-button:hover {
+  background-color: #58f06c;
+}
+
+.poll-card {
+  background: #f8f9fa;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.timer {
+  font-size: 14px;
+  color: #ff4500;
+  margin-top: 5px;
+}
+
+.result {
+  font-size: 16px;
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 10px;
+}
